@@ -1,0 +1,11 @@
+"id","problem","answer"
+"1013","If $n$ is a positive integer, then let $f(n)$ be the sum of the digits of $\\frac{1}{5^{{}^n}}$ that are to the right of the decimal point. What is the smallest positive integer $n$ such that $f(n) > 10$?",7
+"246d26","Convert $199_{10}$ to base 2. Let $x$ be the number of zeros and $y$ be the number of ones in base 2. What is the value of $y-x?$",2
+"2fc4ad","Jenna is at a fair with four friends. They all want to ride the roller coaster, but only three people can fit in a car. How many different groups of three can the five of them make?",10
+"5277ed","Let $a,$ $b,$ $c$ be a three-term arithmetic series where all the terms are positive, such that $abc = 64.$  Find the smallest possible value of $b.$",4
+"739bc9","The perimeter of a rectangle is 56 meters. The ratio of its length to its width is 4:3. What is the length in meters of a diagonal of the rectangle?",20
+"82e2a0","Each edge length of a rectangular solid is a prime number. If the volume of the rectangular solid is 385 cubic units, what is the total surface area, in square units, of the rectangular solid?",334
+"8ee6f3","For what value of $n$ is the five-digit number $\\underline{7n933}$ divisible by 33? (Note: the underlining is meant to indicate that the number should be interpreted as a five-digit number whose ten thousands digit is 7, whose thousands digit is $n$, and so on).",5
+"bedda4","Compute $\\frac{x^8+12x^4+36}{x^4+6}$ when $x=5$.",631
+"430b63","What is the minimum value of $5x^2+5y^2-8xy$ when $x$ and $y$ range over all real numbers such that $|x-2y| + |y-2x| = 40$?",800
+"d7e9c9","A function $f: \mathbb N \to \mathbb N$ satisfies the following two conditions for all positive integers $n$:$f(f(f(n)))=8n-7$ and $f(2n)=2f(n)+1$. Calculate $f(100)$.",199
