@@ -164,3 +164,4 @@ cython_debug/
 output/
 output2/
 code.py
+*.out
