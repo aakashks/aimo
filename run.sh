@@ -10,4 +10,4 @@ source ~/.bashrc
 conda activate temp
 z aimo
 
-papermill 13.ipynb 13.ipynb
+python aimo3.py
