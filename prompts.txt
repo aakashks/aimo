@@ -11,6 +11,20 @@ cot = """Below is a math problem you are to solve (non-negative integer answer!)
 \"{}\"
 Analyze this problem and think step by step to come to a solution with programs. After solving the problem, output the final numerical answer within \\boxed{}.\n\n"""
 
+# ---------- og2 -----------
+
+code = """Below is a math problem you are to solve (non-negative numeric answer!):
+\"{}\"
+To accomplish this, first determine a sympy-based approach for solving the problem by listing each step to take and what functions need to be called in each step. Be clear so even an idiot can follow your instructions, and remember, your final answer should be non-negative integer, not an algebraic expression!
+Write the entire script covering all the steps (use comments and document it well) and print the result. After solving the problem, output the final numerical answer within \\boxed{}.
+
+Approach:"""
+
+cot = """Below is a math problem you are to solve (non-negative numeric answer!):
+\"{}\"
+Analyze this problem and think step by step to come to a solution with programs. After solving the problem, output the final numerical answer within \\boxed{}.\n\n"""
+
+
 # ---------- o2 -----------
 
 code = """Below is a math problem you are to solve:
