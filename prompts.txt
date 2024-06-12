@@ -1,0 +1,55 @@
+# ---------- og -----------
+
+code = """Below is a math problem you are to solve (non-negative integer answer!):
+\"{}\"
+To accomplish this, first determine a sympy-based approach for solving the problem by listing each step to take and what functions need to be called in each step. Be clear so even an idiot can follow your instructions, and remember, your final answer should be non-negative integer, not an algebraic expression!
+Write the entire script covering all the steps (use comments and document it well) and print the result. After solving the problem, output the final numerical answer within \\boxed{}.
+
+Approach:"""
+
+cot = """Below is a math problem you are to solve (non-negative integer answer!):
+\"{}\"
+Analyze this problem and think step by step to come to a solution with programs. After solving the problem, output the final numerical answer within \\boxed{}.\n\n"""
+
+# ---------- o2 -----------
+
+code = """Below is a math problem you are to solve:
+\"{}\"
+Final answer must be a non-negative integer between 0 and 1000.
+
+To accomplish this, first determine a sympy-based approach for solving the problem by listing each step to take and what functions need to be called in each step. Be clear so even an idiot can follow your instructions, and remember, your final answer should be a non-negative integer, not an algebraic expression!
+Write the entire script covering all the steps (use comments and document it well) and print the result. After solving the problem, output the final numerical answer within \\boxed{}.
+
+Approach:"""
+
+cot = """Below is a math problem you are to solve:
+\"{}\"
+Final answer must be a non-negative integer between 0 and 1000.
+
+Analyze this problem and think step by step to come to a solution with programs. After solving the problem, output the final numerical answer within \\boxed{}.\n\n"""
+
+
+# ---------- en -----------
+
+code = """\"{}\"
+Final answer must be a non-negative integer between 0 and 1000.
+
+Please integrate natural language reasoning with programs to solve the problem above, and put your final answer within \\boxed{}."""
+
+cot = """\"{}\"
+Final answer must be a non-negative integer between 0 and 1000.
+
+Please reason step by step, and put your final answer within \\boxed{}."""
+
+# ---------- zn -----------
+
+code = """\"{}\"
+Final answer must be a non-negative integer between 0 and 1000.
+请结合自然语言和Python程序语言来解答问题，并把最终答案放置于\\boxed{}中。"""
+
+cot = """\"{}\"
+Final answer must be a non-negative integer between 0 and 1000.
+请通过逐步推理来解答问题，并把最终答案放置于\\boxed{}中。"""
+
+
+promplt_options = [code,cot]

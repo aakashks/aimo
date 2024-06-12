@@ -1,0 +1,6 @@
+"id","problem","answer"
+"t6430b63","What is the minimum value of $5x^2+5y^2-8xy$ when $x$ and $y$ range over all real numbers such that $|x-2y| + |y-2x| = 40$?",800
+"t6d7e9c9","A function $f: \mathbb N \to \mathbb N$ satisfies the following two conditions for all positive integers $n$:$f(f(f(n)))=8n-7$ and $f(2n)=2f(n)+1$. Calculate $f(100)$.",199
+"e24a2xxq","Real numbers $x$ and $y$ with $x,y>1$ satisfy $\log_x(y^x)=\log_y(x^{4y})=10.$ What is the value of $xy$?",25
+"e24a4xxq","Jen enters a lottery by picking $4$ distinct numbers from $S=\{1,2,3,\cdots,9,10\}.$ $4$ numbers are randomly chosen from $S.$ She wins a prize if at least two of her numbers were $2$ of the randomly chosen numbers, and wins the grand prize if all four of her numbers were the randomly chosen numbers. The probability of her winning the grand prize given that she won a prize is $\tfrac{m}{n}$ where $m$ and $n$ are relatively prime positive integers. Find $m+n$.",116
+"5m82e2a0","Let $z_1$ and $z_2$ be two complex numbers such that $|z_1| = 5$ and\n\\[\\frac{z_1}{z_2} + \\frac{z_2}{z_1} = 1.\\]Find $|z_1 - z_2|^2.$",25
