@@ -1,0 +1,42 @@
+def set_vars(
+    total_tokens=TOTAL_TOKENS,
+    batch_size=BATCH_SIZE,
+    loop_reps=LOOP_REPS,
+    code_prompt_count=CODE_PROMPT_COUNT,
+    time_limit=TIME_LIMIT,
+    per_q_time_limit=PER_Q_TIME_LIMIT,
+    best_count_threshold=BEST_COUNT_THRESHOLD,
+    code_with_text=CODE_WITH_TEXT,
+    temp=TEMP,
+    top_p=TOP_P,
+    seed=SEED,
+    cfile=CFILE
+):
+    global \
+        TOTAL_TOKENS, \
+        BATCH_SIZE, \
+        LOOP_REPS, \
+        CODE_PROMPT_COUNT, \
+        TIME_LIMIT, \
+        PER_Q_TIME_LIMIT, \
+        BEST_COUNT_THRESHOLD, \
+        CODE_WITH_TEXT, \
+        TEMP, \
+        TOP_P, \
+        SEED, \
+        CFILE
+    TOTAL_TOKENS = total_tokens
+    BATCH_SIZE = batch_size
+    LOOP_REPS = loop_reps
+    CODE_PROMPT_COUNT = code_prompt_count
+    TIME_LIMIT = time_limit
+    PER_Q_TIME_LIMIT = per_q_time_limit
+    BEST_COUNT_THRESHOLD = best_count_threshold
+    CODE_WITH_TEXT = code_with_text
+    TEMP = temp
+    TOP_P = top_p
+    SEED = seed
+    CFILE = cfile
+
+from fire import Fire
+Fire(set_vars)
