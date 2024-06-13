@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=3b
+#SBATCH --job-name=t
 #SBATCH --nodes=1
 #SBATCH --partition=gpu
 #SBATCH --gres=gpu:2
@@ -9,7 +9,7 @@
 source ~/.bashrc
 z aimo
 
-FILE="aimo3b.py"
+FILE="$1"
 
 cat $FILE
 python $FILE
