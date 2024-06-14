@@ -1,5 +1,7 @@
 # Inititalizations that didn't fail on T4
 
+# <=25 batches
+
 from vllm import LLM, SamplingParams
 
 llm = LLM(
@@ -16,6 +18,8 @@ llm = LLM(
     seed=SEED,
 )
 
+# <=0.91
+
 # ########
 
 llm = LLM(
@@ -31,3 +35,5 @@ llm = LLM(
     max_seq_len_to_capture=TOTAL_TOKENS//2,
     seed=SEED,
 )
+
+# <=0.97
