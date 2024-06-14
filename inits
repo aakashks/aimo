@@ -1,0 +1,35 @@
+# Inititalizations that didn't fail on T4
+
+from vllm import LLM, SamplingParams
+
+llm = LLM(
+    model=MODEL_NAME,
+    dtype="half",
+    # enforce_eager=True, #to disable CUDA graphs
+    gpu_memory_utilization=0.9,  #with enforce eager you can use 0.99; else 0.91
+    swap_space=3,  #CPU RAM per gpu preferable is 2, default is 4
+    max_model_len=TOTAL_TOKENS,
+    kv_cache_dtype="fp8",  #auto means same as model dtype. use fp8 to save memory
+    tensor_parallel_size=2,
+    max_num_seqs=25,
+    max_seq_len_to_capture=TOTAL_TOKENS//2,
+    disable_custom_all_reduce=True, # on T4
+    seed=SEED,
+)
+
+# ########
+
+llm = LLM(
+    model=MODEL_NAME,
+    dtype="half",
+    enforce_eager=True, #to disable CUDA graphs
+    gpu_memory_utilization=0.97,  #with enforce eager you can use 0.99; else 0.91
+    swap_space=3,  #CPU RAM per gpu preferable is 2, default is 4
+    max_model_len=TOTAL_TOKENS,
+    kv_cache_dtype="fp8",  #auto means same as model dtype. use fp8 to save memory
+    tensor_parallel_size=2,
+    max_num_seqs=25,
+    max_seq_len_to_capture=TOTAL_TOKENS//2,
+    disable_custom_all_reduce=True, # on T4
+    seed=SEED,
+)
