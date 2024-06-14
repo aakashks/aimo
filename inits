@@ -13,7 +13,6 @@ llm = LLM(
     tensor_parallel_size=2,
     max_num_seqs=25,
     max_seq_len_to_capture=TOTAL_TOKENS//2,
-    disable_custom_all_reduce=True, # on T4
     seed=SEED,
 )
 
@@ -30,6 +29,5 @@ llm = LLM(
     tensor_parallel_size=2,
     max_num_seqs=25,
     max_seq_len_to_capture=TOTAL_TOKENS//2,
-    disable_custom_all_reduce=True, # on T4
     seed=SEED,
 )
