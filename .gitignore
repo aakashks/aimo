@@ -163,5 +163,4 @@ cython_debug/
 
 output/
 output2/
-*.py
-*.out
+.out
